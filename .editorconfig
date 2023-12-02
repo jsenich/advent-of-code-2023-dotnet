@@ -55,6 +55,12 @@ csharp_style_namespace_declarations = file_scoped
 # Brace settings
 csharp_prefer_braces = true # Prefer curly braces even for one line of code
 
+# IDE0210: Convert to top-level statements
+csharp_style_prefer_top_level_statements = true
+
+# IDE0210: Convert to top-level statements
+csharp_style_prefer_top_level_statements = true
+
 [*.{xml,config,*proj,nuspec,props,resx,targets,yml,tasks}]
 indent_size = 2
 

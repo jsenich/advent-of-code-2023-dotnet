@@ -55,7 +55,7 @@ internal class Program
 
             if (digits.Count > 1)
             {
-                calibrationValue = int.Parse(digits[0].Value + digits[digits.Count-1].Value);
+                calibrationValue = int.Parse(digits[0].Value + digits[digits.Count - 1].Value);
             }
             else
             {
@@ -87,7 +87,7 @@ internal class Program
 
             if (digits.Count > 1)
             {
-                calibrationValue = int.Parse(ConvertValue(digits[0].Value) + ConvertValue(digits[digits.Count-1].Value));
+                calibrationValue = int.Parse(ConvertValue(digits[0].Value) + ConvertValue(digits[digits.Count - 1].Value));
             }
             else
             {
@@ -104,7 +104,7 @@ internal class Program
     {
         var puzzleInput = File.ReadAllText("input.txt").Trim().Split("\n");
 
-        Console.WriteLine($"Part One: {PartOne(puzzleInput)}");
-        Console.WriteLine($"Part Two: {PartTwo(puzzleInput)}");
+        Console.WriteLine($"Part One: {PartOne(puzzleInput)}"); // Answer: 55621
+        Console.WriteLine($"Part Two: {PartTwo(puzzleInput)}"); // Answer 53592
     }
 }
